@@ -1,0 +1,31 @@
+{
+  "name": "mobile-auth-nodejs",
+  "version": "1.0.0",
+  "description": "Mobile OTP based authentication and JWT based authorization using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehruperumalla1/mobile-auth-nodejs.git"
+  },
+  "author": "Nehru Perumalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehruperumalla1/mobile-auth-nodejs/issues"
+  },
+  "homepage": "https://github.com/nehruperumalla1/mobile-auth-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fast-two-sms": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
